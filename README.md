@@ -103,4 +103,4 @@ Supported `event_type` values: `login_failed`, `login_success`, `connection_atte
 
 ## 👤 Author
 
-[Your Name] | [Your LinkedIn] | [Your Email]
+[Shiva Sai Pashikanti] | [https://www.linkedin.com/in/shiva-sai-pashikanti-480956126/] | [shivasai.pashikanti@gmail.com]
