@@ -1,0 +1,41 @@
+[
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:01:00", "source_ip": "185.220.101.45", "username": "admin", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:02:10", "source_ip": "185.220.101.45", "username": "admin", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:03:22", "source_ip": "185.220.101.45", "username": "root", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:04:11", "source_ip": "185.220.101.45", "username": "administrator", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:05:03", "source_ip": "185.220.101.45", "username": "admin", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:06:45", "source_ip": "185.220.101.45", "username": "admin", "destination": "web-server-01"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T02:07:12", "source_ip": "185.220.101.45", "username": "admin", "destination": "web-server-01"},
+
+  {"event_type": "login_failed", "timestamp": "2024-03-15T09:10:00", "source_ip": "10.0.1.5", "username": "bob", "destination": "internal-db"},
+  {"event_type": "login_failed", "timestamp": "2024-03-15T09:11:00", "source_ip": "10.0.1.5", "username": "bob", "destination": "internal-db"},
+  {"event_type": "login_success", "timestamp": "2024-03-15T09:12:00", "source_ip": "10.0.1.5", "username": "bob", "destination": "internal-db"},
+
+  {"event_type": "login_success", "timestamp": "2024-03-15T01:30:00", "source_ip": "203.0.113.42", "username": "sarah.jones", "destination": "vpn-gateway"},
+  {"event_type": "login_success", "timestamp": "2024-03-15T23:15:00", "source_ip": "198.51.100.7", "username": "mike.chen", "destination": "vpn-gateway"},
+  {"event_type": "login_success", "timestamp": "2024-03-15T03:45:00", "source_ip": "192.0.2.88", "username": "james.wright", "destination": "admin-panel"},
+
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:01", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 22},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:02", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 80},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:03", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 443},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:04", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 8080},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:05", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 3306},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:06", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 5432},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:07", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 21},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:08", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 23},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:09", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 25},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:10", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 53},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:11", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 110},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T14:00:12", "source_ip": "192.168.1.100", "destination_ip": "10.0.0.1", "destination_port": 445},
+
+  {"event_type": "privilege_escalation", "timestamp": "2024-03-15T15:20:00", "source_ip": "10.0.1.55", "username": "temp-contractor", "command": "sudo su -"},
+  {"event_type": "privilege_escalation", "timestamp": "2024-03-15T16:05:00", "source_ip": "10.0.1.22", "username": "john.doe", "command": "sudo chmod 777 /etc/passwd"},
+
+  {"event_type": "data_transfer", "timestamp": "2024-03-15T17:30:00", "source_ip": "10.0.0.50", "destination_ip": "203.0.113.200", "bytes_sent": 52428800},
+  {"event_type": "data_transfer", "timestamp": "2024-03-15T17:35:00", "source_ip": "10.0.0.50", "destination_ip": "203.0.113.200", "bytes_sent": 62914560},
+  {"event_type": "data_transfer", "timestamp": "2024-03-15T10:00:00", "source_ip": "10.0.0.20", "destination_ip": "10.0.0.5", "bytes_sent": 10485760},
+
+  {"event_type": "login_success", "timestamp": "2024-03-15T09:00:00", "source_ip": "10.0.1.1", "username": "alice.smith", "destination": "workstation"},
+  {"event_type": "login_success", "timestamp": "2024-03-15T09:05:00", "source_ip": "10.0.1.2", "username": "bob.jones", "destination": "workstation"},
+  {"event_type": "connection_attempt", "timestamp": "2024-03-15T09:30:00", "source_ip": "10.0.1.1", "destination_ip": "10.0.0.5", "destination_port": 443}
+]
